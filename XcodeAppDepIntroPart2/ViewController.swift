@@ -20,10 +20,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         print("viewDidLoad")
+        //print はコンソール領域に指定したものを出力する。ユーザではなく、開発者向けのコードになる。
         
         myLabel1.text = "text one"
         myLabel2.text = "text two"
-        
+        //.text　とラベル名につけることで、テキストを代入することができる。
     }
 
 
