@@ -9,10 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var myLabel1: UILabel!
+    
+    @IBOutlet weak var myLabel2: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print("viewDidLoad")
+        
+        myLabel1.text = "text one"
+        myLabel2.text = "text two"
+        
     }
 
 
